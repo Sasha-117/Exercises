@@ -15,5 +15,7 @@ this stage it is difficult otherwise test the result.
 """
 
 nat = "ip nat inside source list ACL interface FastEthernet0/1 overload"
+
+# Solution
 nat.replace('Fast', 'Gigabit')
 print(nat)
